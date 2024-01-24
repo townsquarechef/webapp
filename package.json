@@ -1,6 +1,7 @@
 {
   "name": "webapp",
   "version": "0.1.0",
+  "homepage": "https://townsquarechef.github.io/webapp",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.12.1",
@@ -20,8 +21,12 @@
     "react-router-dom": "^6.21.2",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
+
+    
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -44,5 +49,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }

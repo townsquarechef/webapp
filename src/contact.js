@@ -42,8 +42,10 @@ const Contact = () => {
             .then((response) => {
                 console.log('SUCCESS!', response.status, response.text);
                 setMsgvalue('');
+                alert("Email sent successfully!");
             }, (err) => {
                 console.log('FAILED...', err);
+                alert("Sending email failed");
             });
     };
 
