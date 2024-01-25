@@ -180,8 +180,18 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: 'Bebas Neue';
-  font-size: 80px;
+  font-size: 70px;
   color: aliceblue;
+}
+
+.introtext {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: aliceblue;
+  font-family: 'Bebas Neue';
 }
 
 @keyframes fade-in {
@@ -249,7 +259,7 @@ body {
 
 .educationtext {
   font-family: 'Bebas Neue';
-  font-size: 80px;
+  font-size: 70px;
   color: aliceblue;
 }
 
@@ -269,7 +279,7 @@ body {
 
 .contacttext {
   font-family: 'Bebas Neue';
-  font-size: 80px;
+  font-size: 60px;
   color: aliceblue;
   animation: fade-in 5s;
   position: absolute;
@@ -300,18 +310,16 @@ body {
 .contacttextfield {
   position: absolute;
   top: 50%;
-  left: 70%;
+  left: 75%;
   transform: translate(-50%, -50%);
   width: 40%;
 }
 
 .contacticons {
-  margin-right: 20px;
+  margin-right: 25px;
 }
 
 .contacticonsdiv {
-  position: absolute;
-  
   
 }
 

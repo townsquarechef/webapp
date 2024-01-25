@@ -60,13 +60,13 @@ const Contact = () => {
                             <p>CONTACT ME</p>
                             <div className='contacticonsdiv'>
                                 <a href='https://www.linkedin.com/in/aatupal/'>
-                                    <LinkedInIcon className='contacticons' sx={{ fontSize: 80 }} />
+                                    <LinkedInIcon className='contacticons' sx={{ fontSize: 55 }} />
                                 </a>
                                 <a href='https://github.com/townsquarechef'>
-                                    <GitHubIcon className='contacticons' sx={{ fontSize: 80 }} />
+                                    <GitHubIcon className='contacticons' sx={{ fontSize: 55 }} />
                                 </a>
                                 <a href='mailto:paljakanaatu@gmail.com'>
-                                    <MailOutlineIcon className='contacticons' sx={{ fontSize: 80 }} />
+                                    <MailOutlineIcon className='contacticons' sx={{ fontSize: 55 }} />
                                 </a>
                             </div>
                         </div>
@@ -75,7 +75,7 @@ const Contact = () => {
                             <ThemeProvider theme={darkTheme}>
                                 <Paper style={{ backgroundColor: '#0f0820' }} >
                                     <div className='tfcontainer'>
-                                        <Stack spacing={2}>
+                                        <Stack spacing={1}>
                                             <TextField
                                                 hiddenLabel
                                                 multiline
@@ -83,7 +83,7 @@ const Contact = () => {
                                                 onChange={(event) => {
                                                   setMsgvalue(event.target.value);
                                                 }}
-                                                minRows={6}
+                                                minRows={4}
                                                 fullWidth
                                                 variant="filled"
                                                 style={{ backgroundColor: '#ffffff', size: 'medium' }} />
