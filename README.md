@@ -2,7 +2,7 @@
 
 React personal web application
 
-URL: [URL](https://townsquarechef.github.io/webapp)]
+[LINK TO WEBSITE](https://townsquarechef.github.io/webapp)]
 
 
 # ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
