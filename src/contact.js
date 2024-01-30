@@ -23,9 +23,6 @@ const darkTheme = createTheme({
     },
 });
 
-
-//console.log(process.env.REACT_APP_SERVICE_ID)
-
 const Contact = () => {
     const [msgvalue, setMsgvalue] = useState('')
 
